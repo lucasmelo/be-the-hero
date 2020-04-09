@@ -74,7 +74,7 @@ export default function Register() {
                             placeholder="UF"
                             value={uf}
                             onChange={e => setUf(e.target.value)}
-                            style={{ width: 80 }}
+                            
                         />
                     </div>
                     <button className="button" type="submit">Cadastrar</button>
